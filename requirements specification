@@ -1,0 +1,18 @@
+1. Protocol. Http conection can not live a lot of time. So we must close connection after answer for client request.
+So clients must periodicaly ask server for is there it`s turn to move?
+1 time a second - think it is normal.
+
+2. Store of current hand. File or database? Think second wil be more correct.
+
+3. Store tournament history. Think the both option must be able.
+Tournament history gets a lot of disk spase (Mb or even 10 or 100Mb) it will be hard and high price to store it on the server.
+But we can store only some graphs of the toutnament. And will be able to temporaly download histori file to detiled analis.
+
+4. Poker games. There are a lot of poker games and rules.
+number of players, start chips, rake, blinds, ante, increase blinds in time, prise structure, etc.
+Think it must be index page with choose what kind of tourney user wish to create. And then 
+proper page will process clients requests.
+
+
+
+
